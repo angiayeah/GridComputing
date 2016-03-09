@@ -14,8 +14,8 @@ public class Grid_Scheduler extends UnicastRemoteObject implements IGrid_Schedul
     }
     public static void main(String[] args) {
         try {
-            IGrid_Scheduler hello = new Grid_Scheduler();
-            java.rmi.Naming.rebind("rmi://localhost:1099/hello", hello);
+            IGrid_Scheduler GS = new Grid_Scheduler();
+            java.rmi.Naming.rebind("rmi://localhost:6000/GS1", GS);
             System.out.print("Ready");
         } catch (Exception e) {
             e.printStackTrace();

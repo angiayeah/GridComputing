@@ -1,6 +1,7 @@
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 public class Client extends UnicastRemoteObject implements IClient {
+	
     // 这个实现必须有一个显式的构造函数，并且要抛出一个RemoteException异常  
     protected Client() throws RemoteException {
         super();
