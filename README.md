@@ -1,5 +1,5 @@
 # Grid Computing
-Final Project of Distributed Computing System
+Final Project of DCS course
 
 ## Features
 - Connection between GS&RM, RM&Node, JobSender&RM
