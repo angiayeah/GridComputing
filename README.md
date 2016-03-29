@@ -26,6 +26,7 @@ Final Project of DCS course
 - When JS try to give jobs to a RM and it is not online, automatically search for other RMs to give jobs
 
 ## TODO
+- Run on DAS or other server
 
 ## Useful Things
 - Concept of **Technichal Debt**, we spent long time to fix bugs, writing catch blocks
